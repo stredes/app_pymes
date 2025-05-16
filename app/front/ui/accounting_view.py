@@ -1,6 +1,6 @@
 from PySide6.QtWidgets import QWidget, QVBoxLayout, QLabel, QPushButton, QTableWidget, QTableWidgetItem
-from app.logic.accounting_service import AccountingService
-from app.db.sqlite_cache import SQLiteCache
+from app.back.logic.accounting_service import AccountingService
+from app.back.db.sqlite_cache import SQLiteCache
 
 class AccountingView(QWidget):
     def __init__(self, parent=None):

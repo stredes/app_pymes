@@ -1,9 +1,9 @@
 from PySide6.QtWidgets import QMainWindow, QStackedWidget
-from app.ui.dashboard_view import DashboardView
-from app.ui.invoice_view import InvoiceView
-from app.ui.accounting_view import AccountingView
-from app.ui.inventory_view import InventoryView
-from app.ui.client_view import ClientView
+from app.front.ui.dashboard_view import DashboardView
+from app.front.ui.invoice_view import InvoiceView
+from app.front.ui.accounting_view import AccountingView
+from app.front.ui.inventory_view import InventoryView
+from app.front.ui.client_view import ClientView
 
 class MainWindow(QMainWindow):
     def __init__(self):

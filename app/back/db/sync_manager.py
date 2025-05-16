@@ -1,5 +1,5 @@
-from app.db.oracle_connector import OracleConnector
-from app.db.sqlite_cache import SQLiteCache
+from app.back.db.oracle_connector import OracleConnector
+from app.back.db.sqlite_cache import SQLiteCache
 
 class SyncManager:
     def __init__(self):

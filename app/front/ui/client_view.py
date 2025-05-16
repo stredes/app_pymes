@@ -1,6 +1,6 @@
 from PySide6.QtWidgets import QWidget, QVBoxLayout, QLabel, QPushButton, QTableWidget, QTableWidgetItem
-from app.logic.client_service import ClientService
-from app.db.sqlite_cache import SQLiteCache
+from app.back.logic.client_service import ClientService
+from app.back.db.sqlite_cache import SQLiteCache
 
 class ClientView(QWidget):
     def __init__(self, parent=None):
